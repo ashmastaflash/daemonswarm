@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  daemon:
+    build: ./blueprint/ 
+    environment:
+        AGENT_KEY: ${AGENT_KEY}
